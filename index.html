@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website with great features.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Janna">
+    <title>Points</title>
+
+    <!-- Favicon
+    <link rel="icon" href="fav/apple-touch-icon.png" type="image/gif" sizes="16x16"> -->
+
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/fcf0361c04.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <div class="mainFormBody">
+        <h1 class="mainTitle">Get your rewards faster. Buy, Gift or Transfer Miles today!</h1>
+        <div class="plans">
+        </div>
+
+        <div class="wrapper">
+            <div class="one">
+                <div class="summary">
+                    <p class="orderSummary">Order Summary</p>
+                    <hr>
+                    <div class="totalMiles">
+                        <p>Total Miles:</p>
+                        <p class="totalMilesCount">2000</p>
+                    </div>
+                    <div class="gstHst">
+                        <p>GST/HST: </p>
+                        <p class="totalGST">$20.00</p>
+                    </div>
+                    <hr>
+                    <div class="totalCost">
+                        <p>Total Cost:  </p>
+                        <p class="totalCostNum">$197.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <form>
+                    <p class="formSectionTitle">Payment Details</p>
+                    <p class="paymentDetailsTxt">We accept all major credit cards. Please make sure that you enter your details exactly as they appear on your credit card statement. All fields are required unless is indicated.</p>
+                    <label>
+                        <p>Cardholder Name</p><br>
+                        <input class="cardholderName" >
+                    </label>
+                    <label>
+                        <p>Card number</p><br>
+                        <input class="cardNumber" >
+                    </label>
+                    <label>
+                        <p>Expiration date</p><br>
+                        <input class="expireDate" style="width: 350px" placeholder="MMYY">
+                    </label>
+                    <label>
+                        <p>CVV</p><br>
+                        <input class="cvv" style="width: 350px">
+                    </label>
+                    <p class="formSectionTitle">Billing address</p>
+                    <label>
+                        <p>street address</p><br>
+                        <input class="street">
+                    </label>
+                    <label>
+                        <p>Apt, Suite, Unit Number (Optional)</p><br>
+                        <input class="unit">
+                    </label>
+                    <label>
+                        <p>City / Town</p><br>
+                        <input class="city">
+                    </label>
+                    <label>
+                        <p>Country</p><br>
+                        <input class="country" placeholder="Select a country">
+                    </label>
+                    <label>
+                        <p>State / Province</p><br>
+                        <input class="state" placeholder="Select a state or province" disabled>
+                    </label>
+                    <label>
+                        <p>Zip / Postal code</p><br>
+                        <input class="zipCode" placeholder="Select a state or province">
+                    </label>
+                    <label>
+                        <p>Phone number</p><br>
+                        <input class="phone">
+                    </label>
+                    <label>
+                        <p>Email receipt to</p><br>
+                        <input class="email">
+                    </label><br>
+                    <div class="checkboxdiv" style="margin: 40px 0 20px">
+                        <input type="checkbox" id="terms" name="terms" value="terms" style="width: 30px; height: 30px; margin-right: 10px;">
+                        <label for="terms" style="line-height: 30px; font-size: 25px;"> I agree to <a href="#" style="color: black;">terms and conditions</a></label><br>
+                    </div>
+                    <button type="submit" class="finalBtn">Buy Miles</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

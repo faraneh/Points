@@ -1,0 +1,340 @@
+body { 
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainFormBody { 
+    background-color: white;
+    width: 95%;
+    max-width: 1450px;
+    overflow-x: hidden;
+    height: fit-content;
+    margin:0 auto;
+    padding: 0;
+    padding-top: 25px;
+    text-align: center;
+}
+.mainTitle { 
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin:auto;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plans { 
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content:center;
+    /* border: 1px solid red; */
+}
+
+.plan { 
+    width: 90%;
+    height: 125px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+}
+.plan:hover { 
+    background-color: black !important;
+    color: white;
+}
+
+.planTitle { 
+    font-size: 1.9rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.planTxt { 
+    font-size: 1.7rem;
+    margin: 0;
+}
+.active { 
+    background-color: black !important;
+    color: white;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin: 30px auto;
+}
+.one {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    padding: 0;
+    margin: auto;
+    margin: 40px auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.two {
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+    text-align: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+}
+
+
+.summary { 
+    background-color: #eee;
+    height: fit-content;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 40px 40px 60px;
+    box-sizing: border-box;
+    text-align: left;
+}
+hr { 
+    width: 100% !important;
+    margin: 0;
+}
+.orderSummary { 
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.totalMiles { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.totalMiles p {
+    font-size: 1.5rem;
+}
+.gstHst { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gstHst p {
+    font-size: 1.5rem;
+}
+.totalCost { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.totalCost p {
+    font-size: 1.5rem;
+}
+.formSectionTitle { 
+    font-size: 2rem;
+    font-weight: 600;
+}
+.paymentDetailsTxt {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 50px;;
+}
+.formSectionTitle { 
+    margin-bottom: 30px;
+}
+.totalMilesCount { 
+    font-weight: 600;
+    font-size: 1rem;
+}
+.totalGST {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.totalCostNum {
+    font-weight: 600;
+    font-size: 1.5rem !important;
+    line-height:  1rem;
+}
+
+label p {
+    font-size: 1rem;
+    line-height: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+input { 
+    width: 100% ;
+    height: 4rem;
+    border: 1px solid #ccc;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    padding-left: 15px;
+    box-shadow: none;
+}
+.expireDate { 
+    width: 100% !important;
+}
+.cvv { 
+    width: 100% !important;
+}
+.checkboxdiv { 
+    margin-top: 50px;
+    margin: auto;
+    padding: 0;
+    height: 1rem;
+}
+.checkboxdiv label { 
+    font-size: 0.7rem;
+    min-width: 600px;
+}
+
+.finalBtn { 
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 54px 0 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+@media screen and (min-width: 600px) { 
+    .plans { 
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .plan { 
+        width: 420px;
+        height: 125px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 85px 15px 0;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .summary { 
+        background-color: #eee;
+        height: fit-content;
+        width: 100%;
+        min-width: 500px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 40px 40px 60px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    label p {
+        font-size: 1.4rem;
+        line-height: 0.9rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    input { 
+        width: 70%;
+        height: 4rem;
+        border: 1px solid #ccc;
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+    .cardholderName { 
+        width: 90%;
+    }
+    .cardNumber {
+        width: 90%;
+    }
+    .expireDate { 
+        width: 350px !important;
+    }
+    .cvv { 
+        width: 350px !important;
+    }
+    .checkboxdiv { 
+        float: left;
+        display: flex;
+        flex-direction: row;;
+    }
+    .finalBtn { 
+        width: 400px;
+        margin-top: 40px;;
+    }
+}
+
+@media screen and (min-width: 1430px) { 
+    .plans { 
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .plan { 
+        width: 420px;
+        height: 125px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 85px 15px 0;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .wrapper {
+        display: flex;
+        flex-flow: row-reverse;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 85%;
+        margin: 30px auto;
+    }
+    .one {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        padding: 0;
+        margin-top: 40px;
+        padding-left: 20px;
+        width: 40%;
+        /* border: 1px solid red; */
+    }
+    .two {
+        grid-column: 1 / 3;
+        grid-row: 1 / 5;
+        text-align: left;
+        padding: 0 20px;
+        box-sizing: border-box;
+        width: 58%;
+        margin: 0;
+        padding-right: 30px;
+        /* border: 1px solid red; */
+    }
+}
